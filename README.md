@@ -33,7 +33,7 @@ There are several steps to import a model:
 ![Rigs Tab](img/Rig_tab.PNG)
 ![Animation Tab](img/Animation_tab.PNG)
 
-    - avatar masking can be used to adjust the skeleton and also influence animations
+    - avatar masking can be used to adjust the skeleton and muscles and also influence animations
 
 ![mask view](img/mask_view.PNG)
 
