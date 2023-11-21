@@ -15,7 +15,13 @@ It's best to import the model as a fbx file (best support). Furthermore, humanoi
 There are several steps to import a model:
 1. Open import settings window
     - Move the model and its animations to the asset folder in the project window.
+
+![Project window](img/project_window.PNG)
+
     - Open the import setting window (opens up in inspector tab) by clicking on the model.
+    
+![Settings Window](img/Import_settings_window.PNG)
+
 2. Set importer options
     - change scale
     - influence details to improve performance
@@ -23,8 +29,18 @@ There are several steps to import a model:
     - decide what shall be imported (visibility, camera, lights)
 3. Rigs and animation settings
     - differentiate between animation types humanoid and non-humanoid settings -> humanoid needs bone structure / avatar
+
+![Rigs Tab](img/Rig_tab.PNG)
+![Animation Tab](img/Animation_tab.PNG)
+
     - avatar masking can be used to adjust the skeleton and also influence animations
-4. Apply materials and textures
+
+![mask view](img/mask_view.PNG)
+
+4. Apply materials and textures (mostly just click extract textures / materials respectively)
+    
+![Materials Tab](img/materials_tab.PNG)
+
     - with fbx files, just extract both in the materials tab of the model
 
 ### 3.2 Special settings for humanoid models
@@ -33,6 +49,7 @@ There are several steps to import a model:
 7. In the assets folder, create an Animator controller
 8. Click on the Animator controller and drag and drop the animation
 9. Drag and drop this animator controller in your models animator tab in the controller field
+10. Now its ready to play the scene and see your character executing the animation.
 
 ---
 
